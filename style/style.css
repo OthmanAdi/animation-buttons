@@ -1,0 +1,18 @@
+* {
+    padding: 0; /*kein aussen abstand*/
+    margin: 0; /*kein innen abstand*/
+}
+
+:root {
+    --c: #F6C6EA;
+}
+
+body {
+    height: 100vh;
+}
+
+.boxShadow {
+    background-color: var(--c);
+    /*            X-aches - Y-aches - BlurValue - Color */
+    box-shadow: 1px 1px 8px #FAF4B7;
+}
