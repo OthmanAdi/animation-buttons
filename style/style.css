@@ -9,10 +9,30 @@
 
 body {
     height: 100vh;
+    background-color: whitesmoke;
 }
 
 .boxShadow {
     background-color: var(--c);
+}
+
+.boxShadow:hover {
     /*            X-aches - Y-aches - BlurValue - Color */
-    box-shadow: 1px 1px 8px #FAF4B7;
+    box-shadow: -10px 10px 2px #f8f2a0;
+
+    transition: box-shadow 2s;
+}
+
+.textShadow {
+    color: blue;
+}
+
+.textShadow:focus {
+    color: red;
+    text-shadow: 10px 10px 5px green;
+    transition: text-shadow 5s;
+}
+
+.textShadow:hover{
+    transform: scale(1.1,1.1);
 }
